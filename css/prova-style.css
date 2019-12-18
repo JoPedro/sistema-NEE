@@ -1,0 +1,33 @@
+body {
+	background-color: #b0c6f7;
+}
+
+div.container {
+	background-color: white;
+	padding: 50px;
+	margin-bottom: 50px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+div.header {
+	background-color: #292c66;
+	height: 50px;
+	width: 100%;
+}
+
+.lapis {
+	height: 20px;
+	width: 20px;
+}
+
+.md-textarea {
+	width: 750px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.login {
+	width: 500px;
+	margin: auto;
+}
