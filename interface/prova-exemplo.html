@@ -6,6 +6,20 @@
 	<link rel="stylesheet" type="text/css" href="../css/prova-style.css">
 </head>
 <body>
+	<div class="header">
+		<div class="opcoes-left">
+			<h3 class="opc float-left">Listas</h3>
+			<h3 class="opc float-left ml">Aulas</h3>
+			<h3 class="opc float-left ml">Provas</h3>			
+			<h3 class="opc-r float-right">Cadastro</h3>
+			<h3 class="opc-r float-right">Login</h3>
+		</div>		
+	</div>
+	<div class="botoes">
+		<img src="../img/add.png" class="btn_plus">
+		<img src="../img/minus.png" class="btn_minus">
+		<img src="../img/lightbulb.png" class="btn_light">
+	</div>
 	<div class="container">
 		<div> 
 		 	<!--   -->
@@ -28,18 +42,19 @@
 		 	<!-- Caixa de entrada para resposta  -->		
 		 	<p class='p-aula'>
 		 		<label>
-		 			<b>Resposta:</b> <input class="resposta form-control" onkeypress="return noenter()" type="text" name="resposta1" > <b></b>		
+		 			<p><b>Resposta:</b></p> <input class="resposta form-control" onkeypress="return noenter()" type="text" name="resposta1" > <b></b>		
 		 		</label>
 		 	</p>	
 		 	
 		 	<!--   -->
-		 	<label>
-		 		<b>Avaliação:</b> <output class="saida" type="text" name="VF">
-		 	</label>
-
+		 	<p>
+			 	<label>
+			 		<b>Avaliação:</b> <output class="saida" type="text" name="VF">
+			 	</label>	 		
+		 	</p>
 		 	<p class='p-aula'>
 		 		<button type="button" class="btn btn-success">Confirmar</button>
-		 		<button type="button" class="btn btn-danger">Limpar</button>		 				
+		 		<button type="button" class="btn btn-danger">Limpar</button>		
 		 	</p>		
 		 	</form>	
 		 	
@@ -61,15 +76,16 @@
 		 	<!-- Caixa de entrada para resposta  -->		
 		 	<p class='p-aula'>
 		 		<label>
-		 			<b>Resposta:</b> <input class="resposta form-control" onkeypress="return noenter()" type="text" name="resposta1" > <b></b>		
+		 			<p><b>Resposta:</b></p> <input class="resposta form-control" onkeypress="return noenter()" type="text" name="resposta1" > <b></b>		
 		 		</label>
 		 	</p>	
 		 	
 		 	<!--   -->
-		 	<label>
-		 		<b>Avaliação:</b> <output class="saida" type="text" name="VF">
-		 	</label>
-		 				 		
+		 	<p>
+			 	<label>
+			 		<b>Avaliação:</b> <output class="saida" type="text" name="VF">
+			 	</label>	 		
+		 	</p>
 		 	<p class='p-aula'>
 		 		<button type="button" class="btn btn-success">Confirmar</button>
 		 		<button type="button" class="btn btn-danger">Limpar</button>		
@@ -114,7 +130,7 @@
 		 	
 		 	<!-- ESPAÇO PARA COMENTÁRIOS ------------------------------------------------------------ -->	
 		 	<div class="md-form">
-		 		<p class="text-center">Relate sua experiência</p>
+		 		<h3 class="text-center">Relate sua experiência</h3>
 		 	    <textarea id="form10" class="md-textarea form-control" rows="10"></textarea>			 	  	 	  
 		 	</div>
 
