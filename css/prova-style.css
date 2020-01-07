@@ -1,9 +1,17 @@
 body {
-	background-color: #89a7c9;
+	background-color: #404040;
+}
+
+p, .display-4, label {
+	color: white;
+}
+
+hr {
+	background-color: lightgrey;
 }
 
 div.container {
-	background-color: white;
+	background-color: black;
 	padding: 50px;
 	padding-bottom: 100px;
 	margin-bottom: 100px;
@@ -28,20 +36,12 @@ div.container {
 	margin: auto;
 }
 
-.opc-r {
-	color: white;
-	margin-top: 6px;
-	padding: 0px 10px 3px 10px;
-	cursor: pointer;
-	border-left: 1px solid white;
-}
-
 .opc {
-	color: white;
+	color: ghostwhite;
 	margin-top: 6px;
 	padding: 0px 10px 3px 0px;
 	cursor: pointer;
-	border-right: 1px solid white;
+	border-right: 1px solid ghostwhite;
 }
 
 .lapis {
@@ -81,7 +81,7 @@ table {
 	width: 180px;
 }
 
-.btn-primary {
+.btn-login {
 	width: 100px;
 	margin-left: 200px;
 }
@@ -118,4 +118,60 @@ table {
 	height: 25px;
 	cursor: pointer;
 	margin: 10px 0px 0px 15px;
+}
+
+.btn_download {
+  background-color: #4a5275;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.turma {
+	background-color: #4a5275;
+	border-radius: 25px;
+	height: 250px;
+	width: 250px;
+	cursor: pointer;
+	float: left;
+}
+
+.add_turma {
+	background-color: lightgrey;
+	border-radius: 25px;
+	height: 250px;
+	width: 250px;
+	border: 2px solid grey;
+	margin-left: 25px;
+	cursor: pointer;
+	float: left;
+}
+
+.p_turma {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 75px;
+	color: white;
+}
+
+.btn_addturma {
+	height: 50px;
+	width: 50px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.botoes_turma {
+	height: 300px;
+}
+
+.divcenter {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: -25px;
 }

@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Página Inicial</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/prova-style.css">
 </head>
 <body>
-	<div class="container" id="login">
-		<h3>Realize sua autenticação</h3>
+	<div class="header">
+		<div class="opcoes-left">
+			<h3 class="opc float-left">Listas</h3>
+			<h3 class="opc float-left ml">Aulas</h3>
+			<h3 class="opc float-left ml">Provas</h3>
+		</div>		
+	</div>
+	<div class="botoes">
+		<img src="../img/add.png" class="btn_plus">
+		<img src="../img/minus.png" class="btn_minus">
+		<img src="../img/lightbulb_off.png" class="btn_light">
+	</div>
+	<div class="container">
+		<h3 class="display-4">Realize sua autenticação</h3>
 		<hr>
 		<div class="login">
 			<form class="autenticacao">
@@ -19,7 +32,7 @@
 			    <label for="exampleInputPassword1">Senha</label>
 			    <input type="password" class="form-control" id="exampleInputPassword1">
 			  </div>
-			  <button type="submit" class="btn btn-primary">Enviar</button>
+			  <button type="submit" class="btn btn-login btn-primary">Enviar</button>
 			</form>
 		</div>
 	</div>
