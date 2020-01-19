@@ -1,17 +1,9 @@
 body {
-	background-color: #404040;
-}
-
-p, .display-4, label {
-	color: white;
-}
-
-hr {
-	background-color: lightgrey;
+	background-color: #89a7c9;
 }
 
 div.container {
-	background-color: black;
+	background-color: white;
 	padding: 50px;
 	padding-bottom: 100px;
 	margin-bottom: 100px;
@@ -174,4 +166,9 @@ table {
 	margin-right: auto;
 	margin-top: 25px;
 	margin-bottom: -25px;
+}
+
+.btn-cont {
+	width: 75px;
+	margin-right: 10px;
 }
